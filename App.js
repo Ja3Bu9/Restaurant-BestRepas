@@ -53,7 +53,7 @@ export default function App() {
       options={{
         tabBarLabel:'Home',
         tabBarIcon: () => (
-          <Feather name="home" size={24} color="#009F79" />
+          <Feather name="home" size={24} color="#77b5fe" />
         )
       }} name="HomeScreen" component={HomeScreen} />
 
@@ -61,7 +61,7 @@ export default function App() {
       options={{
         tabBarLabel:'Menu',
         tabBarIcon: () => (
-          <MaterialIcons name="restaurant-menu" size={24} color="#009F79" />
+          <MaterialIcons name="restaurant-menu" size={24} color="#77b5fe" />
          
         )
       }} name="restaurant-menu" component={MenuScreen} />
@@ -70,7 +70,7 @@ export default function App() {
       options={{
         tabBarLabel:'Panier',
         tabBarIcon: () => (
-          <AntDesign name="shoppingcart" size={24} color="#009F79" />
+          <AntDesign name="shoppingcart" size={24} color="#77b5fe" />
          
         )
       }} name="restaurant-panier" component={PanierScreen} />

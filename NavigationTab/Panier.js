@@ -60,7 +60,7 @@ export default function Panier() {
   )
   return (
  <View>
-   <Header  style={{backgroundColor:'orange'}}>
+   <Header  style={{backgroundColor:'blue'}}>
 
    <MaterialIcons name="fact-check" size={50} color="white" />
 </Header>    
@@ -95,7 +95,7 @@ card: {
 
 },
  button: {
-   backgroundColor: 'orange',
+   backgroundColor: 'blue',
    paddingHorizontal: 10,
    paddingVertical: 10,
    borderRadius: 5,
@@ -114,12 +114,12 @@ card: {
  title:{
    fontSize:18,
    fontWeight:'bold',
-   color:'green',
+   color:'blue',
  },
  price:{
   fontSize:18,
   fontWeight:'bold',
-  color:'green',
+  color:'blue',
  }
 });
 

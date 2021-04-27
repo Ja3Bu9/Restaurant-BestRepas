@@ -2,7 +2,7 @@ import React from 'react'
 import {View, ImageBackground, StyleSheet } from 'react-native'
 
 
-const image = { uri: "https://image.freepik.com/free-vector/muslim-ramadan-kareem-festival-greeting-design_1017-30817.jpg" };
+const image = { uri: "https://image.freepik.com/vecteurs-libre/lune-etoiles-ramadan-kareem-fond_1017-17829.jpg" };
 export default function Home() {
     return (
         <View >

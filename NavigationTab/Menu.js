@@ -78,7 +78,7 @@ export default function Menu() {
   )
   return (
  <View>
-   <Header  style={{backgroundColor:'#009F79'}}>
+   <Header  style={{backgroundColor:'#77b5fe'}}>
 
 <MaterialIcons name="food-bank" size={54} color="white" />
 </Header>    
@@ -106,7 +106,7 @@ card: {
 
 },
  button: {
-   backgroundColor: 'red',
+   backgroundColor: 'blue',
    paddingHorizontal: 10,
    paddingVertical: 10,
    borderRadius: 5,
@@ -122,11 +122,11 @@ card: {
  title:{
    fontSize:18,
    fontWeight:'bold',
-   color:'green',
+   color:'blue',
  },
  price:{
   fontSize:18,
   fontWeight:'bold',
-  color:'green',
+  color:'blue',
  }
 });
